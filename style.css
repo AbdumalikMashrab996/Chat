@@ -1,0 +1,143 @@
+:root {
+    --shared-color:rgb(207, 200, 200);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 580px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.chat {
+   max-width: 600px;
+   border-radius: 5px;
+}
+
+.radius {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+}
+
+.site-caption {
+    background-color: rgb(41, 128, 143);
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.clear {
+    position: absolute;
+    right: 20px;
+}
+
+.name-man {
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 12px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.today-title {
+    color:var(--shared-color);
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.horizontal-row {
+    width: 150px;
+    height: 2px;
+    border: 1px solid var(--shared-color)
+}
+
+.massage-date {
+    color: var(--shared-color)
+}
+.massege {
+    background-color: lightblue;
+    border-radius:6px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    width: 320px;
+    padding: 12px 10px;
+    text-align: start;
+}
+
+.gray {
+    background-color:rgb(212, 204, 204);
+    margin-left: 150px;
+}
+
+.right-date {
+    margin-left: 430px;
+}
+
+.right {
+    background-color: pink;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.place-Massage {
+    color: #333;
+    border: none;
+    outline: none;
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.pushBtn {
+    color: rgb(41, 128, 143);
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.pushBtn:hover {
+    color: #ff0000;
+}
+
+.pushBtn:active {
+    color: #0000ff;
+}
